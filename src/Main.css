@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  color: wheat;
+}
+
+.Header {
+  background-color: darkslategrey;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0% 0% 10% 10%;
+}
+
+.Header h1 {
+  padding: 6px;
+  color: tomato;
+}
+
+.Header a {
+  text-decoration: none;
+  color: tomato;
+  padding: 10px;
+}
+
+a.active {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.componentCard {
+  background-color: peru;
+  color: blanchedalmond;
+  width: 60vw;
+  margin: 0 auto;
+  border-radius: 1% 1% 4% 4%;
+  padding: 1rem;
+  border: solid 0.2rem slategray;
+}
