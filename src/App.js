@@ -1,6 +1,7 @@
 import React from "react";
-import "./App.css";
+
 import "./Main.css";
+import Navbar from "./Navbar";
 import Header from "./Header";
 import About from "./About";
 import Testing from "./Testing";
@@ -12,6 +13,7 @@ import { Route, Switch } from "react-router-dom";
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Header />
       <h1>This is the august react testing app.</h1>
 
