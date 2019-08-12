@@ -38,7 +38,6 @@ class Navbar extends Component {
             </div>
           </Toolbar>
         </AppBar>
-        <h1>navbar</h1>
       </div>
     );
   }

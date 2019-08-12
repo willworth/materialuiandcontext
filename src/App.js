@@ -7,6 +7,7 @@ import About from "./About";
 import Testing from "./Testing";
 import Default from "./Default";
 import Footer from "./Footer";
+import Form from "./Form";
 
 import { Route, Switch } from "react-router-dom";
 
@@ -15,7 +16,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      <h1>This is the august react testing app.</h1>
+      <h1>This is the react testing app.</h1>
+      <Form />
 
       <Switch>
         <Route path="/about" component={About} />
