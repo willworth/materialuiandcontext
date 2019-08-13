@@ -1,6 +1,6 @@
 body {
-  background-color: black;
-  color: wheat;
+  /* background-color: black;
+  color: wheat; */
 }
 
 .Header {
@@ -29,11 +29,16 @@ a.active {
 }
 
 .componentCard {
-  background-color: peru;
+  background-color: #3f51b5;
   color: blanchedalmond;
   width: 60vw;
   margin: 0 auto;
-  border-radius: 1% 1% 4% 4%;
+  border-radius: 5% 5% 5% 5%;
   padding: 1rem;
-  border: solid 0.2rem slategray;
+  border: solid 0.4rem slategray;
+}
+
+.footer {
+  background-color: #3f51b5;
+  color: blanchedalmond;
 }

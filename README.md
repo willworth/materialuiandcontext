@@ -1,4 +1,6 @@
-This is a simple react app to practise writing effective tests using jest, and later hopefully enzyme.
+This is a simple react app working with material ui and react context.
+
+I hope to practise writing effective tests using jest, and later maybe enzyme.
 https://airbnb.io/enzyme/
 
 https://zellwk.com/blog/endpoint-testing/

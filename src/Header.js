@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function Header() {
   return (
     <div className="Header">
-      <h4>A simple demo app to practise testing</h4>
+      <h4>A simple Material UI and React Context Demo App</h4>
       <nav>
         <NavLink exact activeClassName="active" to="/">
           {" "}

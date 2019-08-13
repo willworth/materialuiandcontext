@@ -6,12 +6,8 @@ export default class Default extends Component {
       <div className="componentCard">
         <h1>Default Component</h1>
         <p>General to do/add:</p>
-        <ul>
-          <li>Add some icons</li>
-          <li>style footer</li>
-          <li>make responsive</li>
-          <li>i18n</li>
-        </ul>
+        <p>Move nav to material ui navbar</p>
+        <p>remove old styling</p>
       </div>
     );
   }

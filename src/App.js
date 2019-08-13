@@ -8,24 +8,26 @@ import Testing from "./Testing";
 import Default from "./Default";
 import Footer from "./Footer";
 import Form from "./Form";
+import PageContent from "./PageContent";
+import { ThemeProvider } from "./contexts/ThemeContext";
 
 import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <h1>This is the react testing app.</h1>
-      <Form />
-
-      <Switch>
-        <Route path="/about" component={About} />
-        <Route path="/testing" component={Testing} />
-        <Route path="/" component={Default} />
-      </Switch>
-      <Footer />
-    </div>
+    <ThemeProvider>
+      <PageContent>
+        <Navbar />
+        <Header />
+        <Form />
+        <Switch>
+          <Route path="/about" component={About} />
+          <Route path="/testing" component={Testing} />
+          <Route path="/" component={Default} />
+        </Switch>
+        <Footer />
+      </PageContent>
+    </ThemeProvider>
   );
 }
 
