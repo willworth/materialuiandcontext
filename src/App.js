@@ -11,10 +11,13 @@ import Form from "./Form";
 import PageContent from "./PageContent";
 import { ThemeProvider } from "./contexts/ThemeContext";
 
+
 import { Route, Switch } from "react-router-dom";
+import { LanguageProvider } from "./contexts/LanguageContext";
 
 function App() {
   return (
+    <LanguageProvider>
     <ThemeProvider>
       <PageContent>
         <Navbar />
@@ -28,6 +31,7 @@ function App() {
         <Footer />
       </PageContent>
     </ThemeProvider>
+    </LanguageProvider>
   );
 }
 
